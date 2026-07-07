@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  @keyframes hb-pulse { 0%,100%{opacity:1; transform:scale(1)} 50%{opacity:.5; transform:scale(.82)} }
+  @keyframes hb-float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-7px)} }
+  html { scroll-behavior:smooth; }
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"ProfessionalService",
+  "name":"Humans & Botz",
+  "description":"Humans & Botz is an AI-optimized marketing studio that pairs human creativity with AI speed to produce motion graphics, video, web, social, email, print and event content — built to get cited by AI answer engines.",
+  "url":"https://humansandbotz.com","telephone":"+1-786-447-7084","email":"hello@humansandbotz.com",
+  "areaServed":"United States","priceRange":"$$",
+  "serviceType":["Motion Graphics","Video Production","Web Design & Development","Social Media Marketing","Email & Demand Generation","Print Design","Trade Show & Event Assets","SEO and Answer Engine Optimization"],
+  "sameAs":["https://www.linkedin.com/in/wendi-attaway-14b35413/","https://www.behance.net/wendiattaway4","https://www.youtube.com/@harleyman9541015"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"What is AI-optimized marketing?","acceptedAnswer":{"@type":"Answer","text":"AI-optimized marketing pairs human strategy and design with AI tools to produce video, web, social and print content faster, then tunes that content for answer engines like ChatGPT, Google AI Overviews and Perplexity so your brand gets recommended."}},
+    {"@type":"Question","name":"What is AEO (Answer Engine Optimization)?","acceptedAnswer":{"@type":"Answer","text":"AEO structures your content, schema and messaging so AI answer engines cite your business directly when people ask buying questions — the modern complement to SEO."}},
+    {"@type":"Question","name":"What marketing services does Humans & Botz offer?","acceptedAnswer":{"@type":"Answer","text":"Motion graphics, video production, web design and development, social media, email and demand generation, print design, trade show and event assets, plus SEO and AEO."}},
+    {"@type":"Question","name":"Who does Humans & Botz work with?","acceptedAnswer":{"@type":"Answer","text":"Small businesses, startups and marketing teams that want senior creative craft delivered at AI speed, without an agency-sized retainer."}},
+    {"@type":"Question","name":"How do I get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free intro call at 786-447-7084 or email hello@humansandbotz.com. We will scope your goals and send a fast, fixed quote."}}
+  ]
+}
+</script>
+</helmet>
+
+<div data-screen-label="Humans & Botz — Home" style="width:100%; background:#ffffff; color:#15182a; font-family:'IBM Plex Sans',sans-serif; -webkit-font-smoothing:antialiased;">
+
+  <!-- ===== NAV ===== -->
+  <div style="position:sticky; top:0; z-index:50; display:flex; align-items:center; justify-content:space-between; padding:16px 6vw; background:rgba(255,255,255,.72); backdrop-filter:blur(16px) saturate(1.3); -webkit-backdrop-filter:blur(16px) saturate(1.3); border-bottom:1px solid rgba(109,91,240,.12);">
+    <div style="display:flex; align-items:center; gap:11px;">
+      <div style="width:36px; height:36px; border-radius:11px; background:linear-gradient(135deg,#6d5bf0,#9b8bff); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-family:'Space Grotesk',sans-serif; box-shadow:0 6px 16px rgba(109,91,240,.4);">H&amp;</div>
+      <span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; letter-spacing:-.01em;">Humans &amp; Botz</span>
+    </div>
+    <div style="display:flex; gap:30px; font-size:14.5px; color:#3c4356; font-weight:500;">
+      <a href="#services" style="color:inherit; text-decoration:none;">Services</a>
+      <a href="#process" style="color:inherit; text-decoration:none;">How it works</a>
+      <a href="#work" style="color:inherit; text-decoration:none;">Work</a>
+      <a href="#faq" style="color:inherit; text-decoration:none;">FAQ</a>
+    </div>
+    <a href="#contact" style="background:#6d5bf0; color:#fff; padding:11px 22px; border-radius:11px; font-size:14px; font-weight:600; text-decoration:none; box-shadow:0 8px 20px rgba(109,91,240,.38);">Book a call</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <div style="position:relative; height:{{ heroHeight }}px; overflow:hidden; background:#fff;">
+    <div style="position:absolute; inset:0; background-image:url('hero-duo.jpg'); background-size:cover; background-position:64% 22%;"></div>
+    <div style="position:absolute; inset:0; background:linear-gradient(100deg, rgba(238,235,255,.97) 0%, rgba(238,235,255,.52) 33%, rgba(255,255,255,0) 60%);"></div>
+    <div style="position:absolute; left:0; right:0; bottom:0; height:300px; background:linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(226,222,250,.62) 100%);"></div>
+
+    <div style="position:relative; z-index:3; padding:120px 6vw 0; max-width:640px;">
+      <div style="display:inline-flex; align-items:center; gap:8px; background:rgba(255,255,255,.62); border:1px solid rgba(255,255,255,.85); padding:7px 15px; border-radius:30px; font-size:12px; font-weight:600; color:#4334b8; margin-bottom:24px; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); box-shadow:0 4px 14px rgba(40,40,90,.08);">
+        <span style="width:7px; height:7px; border-radius:50%; background:#6d5bf0; display:inline-block; box-shadow:0 0 8px #6d5bf0;"></span> AI-OPTIMIZED MARKETING STUDIO
+      </div>
+      <h1 style="font-family:'Space Grotesk',sans-serif; font-size:58px; line-height:1.03; font-weight:700; letter-spacing:-.026em; margin:0 0 20px; color:#13172a;">Human creativity,<br>at <span style="color:#6d5bf0;">machine speed.</span></h1>
+      <p style="font-size:18px; line-height:1.6; color:#3a4256; max-width:450px; margin:0 0 32px;">A marketing studio where real people lead the craft and AI handles the speed — built to get your brand cited by ChatGPT, Perplexity and Google AI Overviews.</p>
+      <div style="display:flex; gap:13px; align-items:center;">
+        <a href="#contact" style="background:#6d5bf0; color:#fff; padding:15px 28px; border-radius:12px; font-weight:600; font-size:15px; text-decoration:none; box-shadow:0 12px 26px rgba(109,91,240,.42);">Start a project</a>
+        <a href="#work" style="border:1px solid rgba(30,40,80,.18); color:#15182a; padding:15px 26px; border-radius:12px; font-weight:600; font-size:15px; text-decoration:none; background:rgba(255,255,255,.6); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);">See our work →</a>
+      </div>
+    </div>
+
+    <!-- frosted quick cards -->
+    <div style="position:absolute; z-index:4; left:6vw; right:6vw; bottom:36px; display:grid; grid-template-columns:repeat(4,1fr); gap:16px;">
+      <sc-for list="{{ heroCards }}" as="c" hint-placeholder-count="4">
+        <div style="border-radius:18px; padding:20px; background:rgba(255,255,255,.3); border:1px solid rgba(255,255,255,.55); backdrop-filter:blur(18px) saturate(1.4); -webkit-backdrop-filter:blur(18px) saturate(1.4); box-shadow:0 16px 40px rgba(20,28,60,.2), inset 0 1px 0 rgba(255,255,255,.6);">
+          <div style="width:42px; height:42px; border-radius:12px; background:rgba(109,91,240,.16); display:flex; align-items:center; justify-content:center; font-size:20px; color:#4334b8; margin-bottom:14px; box-shadow:inset 0 1px 0 rgba(255,255,255,.7);">{{ c.glyph }}</div>
+          <div style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:15px; margin-bottom:5px;">{{ c.name }}</div>
+          <div style="font-size:12.5px; color:#3f465c; line-height:1.45;">{{ c.desc }}</div>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+
+  <!-- ===== AI ENGINE STRIP ===== -->
+  <div style="padding:30px 6vw; background:#f5f4fc; border-bottom:1px solid #eceaf8;">
+    <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+      <span style="font-size:13px; font-weight:600; letter-spacing:.04em; color:#6a7186;">BUILT TO GET YOU CITED ACROSS THE ANSWER-ENGINE ERA</span>
+      <div style="display:flex; gap:34px; flex-wrap:wrap; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:16px; color:#5b5570;">
+        <span>ChatGPT</span><span>Perplexity</span><span>Gemini</span><span>Google&nbsp;AI&nbsp;Overviews</span><span>Copilot</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SERVICES ===== -->
+  <div id="services" data-screen-label="Services" style="padding:88px 6vw; background:#fff;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="font-size:13px; color:#6d5bf0; font-weight:600; letter-spacing:.1em; margin-bottom:10px;">WHAT WE DO</div>
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-size:40px; font-weight:700; letter-spacing:-.025em; margin:0 0 14px;">Eight services. One studio.</h2>
+      <p style="font-size:17px; color:#5a6178; max-width:560px; margin:0 0 40px; line-height:1.6;">Full-funnel creative — strategy and design led by humans, produced and iterated at the speed only AI makes possible.</p>
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:18px;">
+        <sc-for list="{{ services }}" as="svc" hint-placeholder-count="8">
+          <div style="background:#fbfaff; border:1px solid #ece9fa; border-radius:18px; padding:26px; transition:transform .2s;" style-hover="transform:translateY(-4px); box-shadow:0 18px 40px rgba(109,91,240,.14);">
+            <div style="width:48px; height:48px; border-radius:13px; background:linear-gradient(135deg,#efeaff,#e0daff); display:flex; align-items:center; justify-content:center; font-size:22px; color:#6d5bf0; margin-bottom:18px; box-shadow:inset 0 1px 0 rgba(255,255,255,.9);">{{ svc.glyph }}</div>
+            <div style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:17px; margin-bottom:7px;">{{ svc.name }}</div>
+            <div style="font-size:13.5px; color:#6b7290; line-height:1.55;">{{ svc.desc }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PROCESS ===== -->
+  <div id="process" data-screen-label="How it works" style="padding:88px 6vw; background:#f5f4fc;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="font-size:13px; color:#6d5bf0; font-weight:600; letter-spacing:.1em; margin-bottom:10px;">HOW IT WORKS</div>
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-size:40px; font-weight:700; letter-spacing:-.025em; margin:0 0 40px;">Humans lead. Bots accelerate.</h2>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:20px;">
+        <sc-for list="{{ steps }}" as="s" hint-placeholder-count="3">
+          <div style="background:#fff; border:1px solid #ece9fa; border-radius:20px; padding:32px 30px;">
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:20px;">
+              <div style="font-family:'Space Grotesk',sans-serif; font-size:40px; font-weight:700; color:#6d5bf0; opacity:.9;">{{ s.num }}</div>
+              <div style="font-size:11px; font-weight:700; letter-spacing:.08em; color:#fff; background:{{ s.tagColor }}; padding:5px 11px; border-radius:20px;">{{ s.tag }}</div>
+            </div>
+            <div style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:20px; margin-bottom:9px;">{{ s.title }}</div>
+            <div style="font-size:14.5px; color:#5a6178; line-height:1.6;">{{ s.body }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== WORK / SOCIAL GRID ===== -->
+  <div id="work" data-screen-label="Work" style="padding:88px 6vw; background:#fff;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:20px; flex-wrap:wrap; margin-bottom:38px;">
+        <div>
+          <div style="font-size:13px; color:#6d5bf0; font-weight:600; letter-spacing:.1em; margin-bottom:10px;">SELECTED WORK</div>
+          <h2 style="font-family:'Space Grotesk',sans-serif; font-size:40px; font-weight:700; letter-spacing:-.025em; margin:0;">Straight from the feed.</h2>
+        </div>
+        <a href="#contact" style="color:#6d5bf0; font-weight:600; font-size:15px; text-decoration:none;">Want this for your brand? →</a>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:18px;">
+        <sc-for list="{{ posts }}" as="p" hint-placeholder-count="6">
+          <div style="border-radius:18px; overflow:hidden; border:1px solid #ece9fa; box-shadow:0 8px 24px rgba(20,28,60,.06); background:#fbfaff;">
+            <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="{{ p.id }}" shape="rect" placeholder="{{ p.ph }}" style="display:block; width:100%; height:230px;" hint-size="100%,230px"></x-import>
+            <div style="padding:15px 18px; display:flex; align-items:center; justify-content:space-between;">
+              <div>
+                <div style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:15px;">{{ p.title }}</div>
+                <div style="font-size:12.5px; color:#8089a0; margin-top:2px;">{{ p.kind }}</div>
+              </div>
+              <span style="font-size:12px; font-weight:600; color:#6d5bf0; background:rgba(109,91,240,.1); padding:5px 11px; border-radius:16px;">{{ p.tag }}</span>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== TESTIMONIAL ===== -->
+  <div data-screen-label="Testimonial" style="padding:90px 6vw; background:#14152a; color:#fff; position:relative; overflow:hidden;">
+    <div style="position:absolute; right:-80px; top:-80px; width:340px; height:340px; border-radius:50%; background:radial-gradient(circle,#6d5bf0,transparent 70%); opacity:.45;"></div>
+    <div style="position:absolute; left:-60px; bottom:-90px; width:300px; height:300px; border-radius:50%; background:radial-gradient(circle,#22d3ee,transparent 70%); opacity:.18;"></div>
+    <div style="position:relative; max-width:980px; margin:0 auto; text-align:center;">
+      <div style="font-size:13px; color:#b3a9ff; font-weight:600; letter-spacing:.12em; margin-bottom:22px;">★★★★★ &nbsp;RATED 5.0</div>
+      <p style="font-family:'Space Grotesk',sans-serif; font-size:30px; line-height:1.42; font-weight:500; margin:0 0 26px; letter-spacing:-.01em;">“She has an exceptional ability to turn vague concepts into full-scale marketing campaigns, always delivering on time and within budget.”</p>
+      <div style="font-size:15px; color:#aab2cc;">Charles Cibella — CEO, Vant-Edge &amp; Creative Connection</div>
+    </div>
+  </div>
+
+  <!-- ===== EVENTS / TRADE SHOW ===== -->
+  <div data-screen-label="Events" style="padding:88px 6vw; background:#fff;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="display:grid; grid-template-columns:.85fr 1.15fr; gap:48px; align-items:center;">
+        <div>
+          <div style="font-size:13px; color:#6d5bf0; font-weight:600; letter-spacing:.1em; margin-bottom:10px;">EVENTS &amp; TRADE SHOWS</div>
+          <h2 style="font-family:'Space Grotesk',sans-serif; font-size:38px; font-weight:700; letter-spacing:-.025em; margin:0 0 16px;">From booth to swag to the final cut.</h2>
+          <p style="font-size:16px; color:#5a6178; line-height:1.65; margin:0 0 24px;">Booth graphics, signage, branded swag and on-site video capture — everything you need to show up and stand out, produced fast and on-brand.</p>
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            <sc-for list="{{ eventPills }}" as="e" hint-placeholder-count="4">
+              <div style="display:flex; align-items:center; gap:11px; font-size:15px; color:#3c4356;">
+                <span style="width:22px; height:22px; border-radius:50%; background:rgba(109,91,240,.14); color:#6d5bf0; display:inline-flex; align-items:center; justify-content:center; font-size:12px; font-weight:700;">✓</span>{{ e }}
+              </div>
+            </sc-for>
+          </div>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; grid-template-rows:170px 170px; gap:14px;">
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="evt-1" shape="rounded" radius="16" placeholder="Trade show booth" style="display:block; width:100%; height:100%; grid-row:span 2;" hint-size="100%,354px"></x-import>
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="evt-2" shape="rounded" radius="16" placeholder="Event signage" style="display:block; width:100%; height:100%;" hint-size="100%,170px"></x-import>
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="evt-3" shape="rounded" radius="16" placeholder="Branded swag" style="display:block; width:100%; height:100%;" hint-size="100%,170px"></x-import>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FUN FACTS ===== -->
+  <div data-screen-label="Fun facts" style="padding:88px 6vw; background:#f5f4fc;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="font-size:13px; color:#6d5bf0; font-weight:600; letter-spacing:.1em; margin-bottom:10px;">WHILE THE BOTS COMPILE…</div>
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-size:40px; font-weight:700; letter-spacing:-.025em; margin:0 0 38px;">A few fun facts.</h2>
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:18px;">
+        <sc-for list="{{ facts }}" as="f" hint-placeholder-count="4">
+          <div style="background:#fff; border:1px solid #ece9fa; border-radius:18px; padding:26px;">
+            <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:13px; color:#6d5bf0; letter-spacing:.06em; margin-bottom:14px;">{{ f.tag }}</div>
+            <div style="font-size:15px; color:#3c4356; line-height:1.6;">{{ f.text }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FAQ (AEO) ===== -->
+  <div id="faq" data-screen-label="FAQ" style="padding:88px 6vw; background:#fff;">
+    <div style="max-width:880px; margin:0 auto;">
+      <div style="font-size:13px; color:#6d5bf0; font-weight:600; letter-spacing:.1em; margin-bottom:10px; text-align:center;">ANSWERS FOR HUMANS &amp; ENGINES</div>
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-size:40px; font-weight:700; letter-spacing:-.025em; margin:0 0 38px; text-align:center;">Frequently asked questions</h2>
+      <div style="display:flex; flex-direction:column; gap:14px;">
+        <sc-for list="{{ faqs }}" as="q" hint-placeholder-count="5">
+          <div style="border:1px solid #ece9fa; border-radius:16px; overflow:hidden; background:#fbfaff;">
+            <div onClick="{{ q.onToggle }}" style="display:flex; align-items:center; justify-content:space-between; gap:16px; padding:22px 24px; cursor:pointer;">
+              <span style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:18px; color:#15182a;">{{ q.question }}</span>
+              <span style="flex:0 0 auto; width:30px; height:30px; border-radius:50%; background:rgba(109,91,240,.12); color:#6d5bf0; display:flex; align-items:center; justify-content:center; font-size:20px; font-weight:600;">{{ q.sign }}</span>
+            </div>
+            <sc-if value="{{ q.open }}" hint-placeholder-val="{{ true }}">
+              <div style="padding:0 24px 24px; font-size:15.5px; color:#5a6178; line-height:1.65; max-width:680px;">{{ q.answer }}</div>
+            </sc-if>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CONTACT / CTA ===== -->
+  <div id="contact" data-screen-label="Contact" style="padding:92px 6vw; background:linear-gradient(135deg,#6d5bf0,#4334b8); color:#fff; position:relative; overflow:hidden;">
+    <div style="position:absolute; right:-60px; bottom:-80px; width:320px; height:320px; border-radius:50%; background:radial-gradient(circle,rgba(255,255,255,.18),transparent 70%);"></div>
+    <div style="position:relative; max-width:1100px; margin:0 auto; display:grid; grid-template-columns:1.2fr .8fr; gap:48px; align-items:center;">
+      <div>
+        <h2 style="font-family:'Space Grotesk',sans-serif; font-size:46px; font-weight:700; letter-spacing:-.025em; line-height:1.05; margin:0 0 16px;">Let's build something<br>worth citing.</h2>
+        <p style="font-size:18px; color:rgba(255,255,255,.85); line-height:1.6; max-width:480px; margin:0 0 30px;">Book a free intro call. We'll scope your goals and send a fast, fixed quote — no agency-sized retainer required.</p>
+        <div style="display:flex; gap:13px; flex-wrap:wrap;">
+          <a href="tel:+17864477084" style="background:#fff; color:#4334b8; padding:15px 28px; border-radius:12px; font-weight:700; font-size:15px; text-decoration:none;">786.447.7084</a>
+          <a href="mailto:hello@humansandbotz.com" style="border:1px solid rgba(255,255,255,.5); color:#fff; padding:15px 26px; border-radius:12px; font-weight:600; font-size:15px; text-decoration:none;">hello@humansandbotz.com</a>
+        </div>
+      </div>
+      <div style="background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.25); border-radius:20px; padding:30px; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);">
+        <div style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:18px; margin-bottom:18px;">Find us</div>
+        <div style="display:flex; flex-direction:column; gap:14px; font-size:15px;">
+          <a href="https://www.linkedin.com/in/wendi-attaway-14b35413/" style="color:#fff; text-decoration:none; display:flex; align-items:center; gap:10px;"><span style="opacity:.7;">↗</span> LinkedIn</a>
+          <a href="https://www.behance.net/wendiattaway4" style="color:#fff; text-decoration:none; display:flex; align-items:center; gap:10px;"><span style="opacity:.7;">↗</span> Behance</a>
+          <a href="https://www.youtube.com/@harleyman9541015" style="color:#fff; text-decoration:none; display:flex; align-items:center; gap:10px;"><span style="opacity:.7;">↗</span> YouTube</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <div style="padding:30px 6vw; background:#0f1020; color:#8b90a8; font-size:13px;">
+    <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <div style="width:26px; height:26px; border-radius:8px; background:linear-gradient(135deg,#6d5bf0,#9b8bff); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-size:11px; font-family:'Space Grotesk',sans-serif;">H&amp;</div>
+        <span>© 2026 Humans &amp; Botz — AI-optimized marketing studio</span>
+      </div>
+      <span style="color:#aab0cc;">786.447.7084 · hello@humansandbotz.com</span>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;heroCtaSpacing&quot;: { &quot;editor&quot;: &quot;int&quot;, &quot;default&quot;: 110, &quot;min&quot;: 0, &quot;max&quot;: 200, &quot;step&quot;: 4, &quot;tsType&quot;: &quot;number&quot; }
+}">
+class Component extends DCLogic {
+  state = { openIndex: 0 };
+
+  renderVals() {
+    const heroCards = [
+      { name: "Motion & Video", glyph: "▶", desc: "Animation, explainers & product film." },
+      { name: "Web Design", glyph: "⌬", desc: "Sites built to convert and rank." },
+      { name: "Social Media", glyph: "✦", desc: "Feeds that stop the scroll." },
+      { name: "SEO / AEO", glyph: "⌕", desc: "Get cited by AI answer engines." },
+    ];
+    const services = [
+      { name: "Motion Graphics", glyph: "▶", desc: "Story-driven animation, explainers and branded motion." },
+      { name: "Video Production", glyph: "◉", desc: "Shorts, product films, training and event video." },
+      { name: "Web Design & Dev", glyph: "⌬", desc: "Fast, accessible sites built to convert and rank." },
+      { name: "Social Media", glyph: "✦", desc: "Feeds, campaigns and community that stop the scroll." },
+      { name: "Email & Demand Gen", glyph: "✉", desc: "Campaigns that fill and warm your pipeline." },
+      { name: "Print Design", glyph: "▤", desc: "Brochures, cards, signage and announcements." },
+      { name: "Events & Trade Shows", glyph: "▢", desc: "Booths, swag, banners and on-site video capture." },
+      { name: "SEO & AEO", glyph: "⌕", desc: "Get cited by AI answer engines and rank on Google." },
+    ];
+    const steps = [
+      { num: "01", tag: "HUMAN", tagColor: "#6d5bf0", title: "Brief", body: "Real people listen first. We learn your goals, your voice and exactly who you're trying to reach." },
+      { num: "02", tag: "BOT", tagColor: "#22a5b8", title: "Build", body: "AI tooling drafts, iterates and ships — turning a week of production into an afternoon, without losing the craft." },
+      { num: "03", tag: "HUMAN + BOT", tagColor: "#4334b8", title: "Optimize", body: "We tune the content, copy and schema so answer engines understand and cite your brand by name." },
+    ];
+    const posts = [
+      { id: "social-1", title: "Live Countdown", kind: "Social campaign", tag: "Reels", ph: "Drop a campaign visual" },
+      { id: "social-2", title: "Brand Awareness", kind: "Paid social", tag: "Static", ph: "Drop a campaign visual" },
+      { id: "social-3", title: "Product Launch", kind: "Motion + video", tag: "Video", ph: "Drop a launch visual" },
+      { id: "social-4", title: "Community", kind: "Organic social", tag: "Carousel", ph: "Drop a social post" },
+      { id: "social-5", title: "Email Promo", kind: "Demand gen", tag: "Email", ph: "Drop an email mockup" },
+      { id: "social-6", title: "Web Refresh", kind: "Web design", tag: "Site", ph: "Drop a site screenshot" },
+    ];
+    const eventPills = [
+      "Trade show booth design & large-format print",
+      "Event signage, banners and wayfinding",
+      "Branded swag and giveaways",
+      "On-site photo and video capture",
+    ];
+    const facts = [
+      { tag: "1985", text: "Desktop publishing took off with the Apple LaserWriter — design went digital overnight." },
+      { tag: "THE CIRCUS", text: "The very first billboard was created to advertise the circus." },
+      { tag: "BRANDING", text: "“Branding” comes from burning a unique mark onto cattle to tell them apart." },
+      { tag: "2026", text: "Now answer engines decide which brands get cited — so we optimize for that, too." },
+    ];
+    const faqSource = [
+      { question: "What is AI-optimized marketing?", answer: "AI-optimized marketing pairs human strategy and design with AI tools to produce video, web, social and print content faster — then tunes that content for answer engines like ChatGPT, Google AI Overviews and Perplexity so your brand actually gets recommended." },
+      { question: "What is AEO (Answer Engine Optimization)?", answer: "AEO structures your content, schema and messaging so AI answer engines cite your business directly when people ask buying questions. It's the modern complement to traditional SEO." },
+      { question: "What marketing services do you offer?", answer: "Motion graphics, video production, web design and development, social media, email and demand generation, print design, trade show and event assets, plus SEO and AEO — eight services under one roof." },
+      { question: "Who do you work with?", answer: "Small businesses, startups and lean marketing teams that want senior creative craft delivered at AI speed, without an agency-sized retainer." },
+      { question: "How do I get started?", answer: "Book a free intro call at 786.447.7084 or email hello@humansandbotz.com. We'll scope your goals and send a fast, fixed quote." },
+    ];
+    const faqs = faqSource.map((f, i) => ({
+      question: f.question,
+      answer: f.answer,
+      open: this.state.openIndex === i,
+      sign: this.state.openIndex === i ? "–" : "+",
+      onToggle: () => this.setState({ openIndex: this.state.openIndex === i ? -1 : i }),
+    }));
+
+    const heroCtaSpacing = this.props.heroCtaSpacing ?? 110;
+    const heroHeight = 620 + heroCtaSpacing;
+    return { heroCards, services, steps, posts, eventPills, facts, faqs, heroCtaSpacing, heroHeight };
+  }
+}
+</script>
+</body>
+</html>
